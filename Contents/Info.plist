@@ -11,29 +11,30 @@
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>
-			<key>UTTypeConformsTo</key>
-			<array>
-				<string>public.source-code</string>
-			</array>
-			<key>UTTypeDescription</key>
-			<string>TeX Source File</string>
-			<key>UTTypeIdentifier</key>
-			<string>org.tug.tex</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
 				<array>
-					<string>tex</string>
-					<string>tex~</string>
 					<string>latex</string>
-					<string>ltx</string>
+					<string>sty</string>
+					<string>cls</string>
 					<string>texi</string>
 					<string>ctx</string>
-					<string>sty</string>
-					<string>bst</string>
-					<string>cls</string>
+					<string>ltx</string>
+					<string>tex</string>
+					<string>tex~</string>
 				</array>
 			</dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.source-code</string>
+				<string>public.plain-text</string>
+				<string>public.text</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>LaTeX Source</string>
+			<key>UTTypeIdentifier</key>
+			<string>org.tug.tex</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -91,6 +92,23 @@
 				<array>
 					<string>gamin</string>
 					<string>gamin~</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>XYZ File</string>
+			<key>UTTypeIdentifier</key>
+			<string>net.sourceforge.openbabel.xyz</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>xyz</string>
 				</array>
 			</dict>
 		</dict>
@@ -273,6 +291,7 @@
 				<key>public.filename-extension</key>
 				<array>
 					<string>gnuplot</string>
+					<string>plt</string>
 					<string>gnuplot~</string>
 				</array>
 			</dict>
