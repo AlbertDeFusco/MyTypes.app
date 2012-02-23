@@ -59,6 +59,7 @@
 		<dict>
 			<key>UTTypeConformsTo</key>
 			<array>
+				<string>com.apple.xcode.fortran-source</string>
 				<string>public.source-code</string>
 				<string>public.plain-text</string>
 				<string>public.text</string>
@@ -238,6 +239,24 @@
 				<key>public.filename-extension</key>
 				<array>
 					<string>efp</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.plain-text</string>
+				<string>public.text</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Crystallographic Information file</string>
+			<key>UTTypeIdentifier</key>
+			<string>net.sourceforge.openbabel.cif</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>cif</string>
 				</array>
 			</dict>
 		</dict>
